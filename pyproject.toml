@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "dabuscp-aigcgen_jd157"
+name = "dabuscp-gpu_failure_recovery_timeline_score"
 version = "0.1.0"
 description = "解析时间标记，排列AIGC 内容生成工程师·GPU 故障与作业自愈的发生顺序，标出间隔异常与逆序事件"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://dabuscp.github.io"
-Repository = "https://github.com/dabuscp/aigcgen_jd157"
-Issues = "https://github.com/dabuscp/aigcgen_jd157/issues"
+Repository = "https://github.com/dabuscp/gpu_failure_recovery_timeline_score"
+Issues = "https://github.com/dabuscp/gpu_failure_recovery_timeline_score/issues"
 
 [project.scripts]
-aigcgen_jd157 = "aigcgen_jd157:main"
+gpu_failure_recovery_timeline_score = "gpu_failure_recovery_timeline_score:main"
 
 [tool.setuptools]
-py-modules = ["aigcgen_jd157"]
+py-modules = ["gpu_failure_recovery_timeline_score"]
